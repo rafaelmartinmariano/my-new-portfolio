@@ -1,0 +1,8 @@
+name: 'Rafael Martin Mariano'
+super: true
+id: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
+password_hash: $2y$12$x5zh3WBU3/EneQI219q5iu4NYyevI/NdppwQ1HmjWzACzpbbnnmwO
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
