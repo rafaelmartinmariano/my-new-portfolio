@@ -1,31 +1,100 @@
 <section id="for-first-content">
     <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
         {{ first_content }}
-            <!-- for Image -->
-            <div class="h-200 overflow-hidden p-10">
-                {{ your_picture }}
-                    <img src="{{ url }}" alt="{{ alt ?? title }}" class="h-full w-full object-cover" />
-                {{ /your_picture }}
-            </div>
-            
+        <!-- for Image -->
+        <div class="p-10 flex items-center justify-center">
+            {{ your_picture }}
+            <img src="{{ url }}" alt="{{ alt ?? title }}" class="w-60 h-90 rounded-full" />
+            {{ /your_picture }}
+        </div>
 
-            <div class="p-10">
+
+        <div class="p-10">
             <!-- For Name & About Me -->
-                <div class="bg-white rounded-xl">
-                    <div class="text-gray-800 p-9">
-                        <span class="text-2xl">Hi! I'm {{name}}</span>
-                        
-                        <p class="text-gray-800">{{about_me}}</p>
-                        
-                    </div>
-                    
-                </div>
-                 
-            </div>
+            <div class="bg-white rounded-xl shadow-2xl">
+                <div class="text-gray-800 p-9">
+                    <span class="text-4xl">{{intro}}</span>
 
-            
+                    <p class="text-gray-800 mt-4">{{about_me}}</p>
+                </div>
+            </div>
+        </div>
+
+
         {{ /first_content }}
     </div>
 </section>
 
+<!-- Skills and Stacks -->
+<section>
+    {{section_group_2}}
+    <div class="place-items-center mt-10 p-10">
+        <h1
+            class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            {{ title }}
+        </h1>
+        <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+            {{description}}
+        </p>
+    </div>
+    {{/section_group_2}}
 
+    {{ skills_and_stacks }}
+    <div>
+        <div class="mx-auto max-w-7xl sm:px-6 lg:px-8 mb-10">
+            <div
+                class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+                <svg viewBox="0 0 1024 1024"
+                    class="absolute top-1/2 left-1/2 -z-10 size-256 -translate-y-1/2 mask-[radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
+                    aria-hidden="true">
+                    <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
+                        fill-opacity="0.7" />
+                    <defs>
+                        <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                            <stop stop-color="#7775D6" />
+                            <stop offset="1" stop-color="#E935C1" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+
+                {{ if index % 2 != 0 }}
+                <div class="flex flex-col lg:flex-row-reverse">
+                    {{ /if }}
+
+
+                    <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                        <h2 class="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+                            {{ programming_language }}
+                        </h2>
+                        <div class="mt-6 text-lg/8 text-pretty text-gray-300">
+                            {{ description }}
+                        </div>
+                    </div>
+
+                    <div class="mt-16 min-h-80 lg:mt-8 grid grid-cols-1
+                        {{ if logos|count >= 5 }}
+                        sm:grid-cols-3
+                        {{ elseif logos|count == 1 }}
+                        sm:grid-cols-1
+                        {{ else }}
+                        sm:grid-cols-2
+                        {{ /if }}
+                        gap-20 place-items-center">
+                        {{ logos }}
+                        <img class="w-60 rounded-md p-3" src="{{ url }}" alt="App screenshot" width="1824"
+                            height="1080" />
+
+                        {{ /logos }}
+                    </div>
+
+                    {{ if index % 2 != 0 }}
+                </div>
+                {{ /if }}
+
+
+            </div>
+        </div>
+    </div>
+    {{ /skills_and_stacks }}
+
+</section>

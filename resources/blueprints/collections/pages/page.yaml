@@ -25,10 +25,10 @@ tabs:
                       display: 'New Set'
                       fields:
                         -
-                          handle: name
+                          handle: intro
                           field:
                             type: text
-                            display: Name
+                            display: Intro
                         -
                           handle: about_me
                           field:
@@ -41,6 +41,51 @@ tabs:
                             container: assets
                             type: assets
                             display: 'Your Picture'
+          -
+            handle: section_group_2
+            field:
+              type: group
+              display: 'Section Group 2'
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: description
+                  field:
+                    type: textarea
+                    display: Description
+          -
+            handle: skills_and_stacks
+            field:
+              type: replicator
+              display: 'Skills and Stacks'
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: programming_language
+                          field:
+                            placeholder: 'Programming Languages'
+                            type: text
+                            display: 'Programming Language'
+                        -
+                          handle: description
+                          field:
+                            type: markdown
+                            display: Description
+                        -
+                          handle: logos
+                          field:
+                            container: assets
+                            type: assets
+                            display: logos
           -
             handle: template
             field:
