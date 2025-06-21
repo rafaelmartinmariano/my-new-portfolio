@@ -8,7 +8,10 @@
         {{ vite src="resources/js/site.js|resources/css/site.css" }}
     </head>
     <body class="bg-gradient-to-bl from-[#0f172a] via-[#1e1a78] to-[#0f172a] h-full">
-        {{ partial:main_nav }}
+        <div class="pl-10 pr-10 mt-3">
+            {{ partial:main_nav }}
+        </div>
+        
         {{ template_content }}
     </body>
 </html>

@@ -1,11 +1,31 @@
-<!--<div class="flex justify-center items-center h-screen ">
-    <div class="mt-4 bg-white dark:bg-gray-900 p-8 shadow-xl rounded-2xl max-w-xl prose prose-slate dark:prose-invert">
-        
-    </div>
-</div>-->
+<section id="for-first-content">
+    <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
+        {{ first_content }}
+            <!-- for Image -->
+            <div class="h-200 overflow-hidden p-10">
+                {{ your_picture }}
+                    <img src="{{ url }}" alt="{{ alt ?? title }}" class="h-full w-full object-cover" />
+                {{ /your_picture }}
+            </div>
+            
 
-<div class="h-screen text-white text-3xl font-bold p-15 text-center">
-    {{ content | widont }}
-</div>
+            <div class="p-10">
+            <!-- For Name & About Me -->
+                <div class="bg-white rounded-xl">
+                    <div class="text-gray-800 p-9">
+                        <span class="text-2xl">Hi! I'm {{name}}</span>
+                        
+                        <p class="text-gray-800">{{about_me}}</p>
+                        
+                    </div>
+                    
+                </div>
+                 
+            </div>
+
+            
+        {{ /first_content }}
+    </div>
+</section>
 
 
