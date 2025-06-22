@@ -1,0 +1,112 @@
+title: Portfolio
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: section_1
+            field:
+              type: group
+              display: 'Section 1'
+              fields:
+                -
+                  handle: name
+                  field:
+                    type: text
+                    display: Name
+                -
+                  handle: your_picture
+                  field:
+                    container: assets
+                    type: assets
+                    display: 'Your Picture'
+                -
+                  handle: biography
+                  field:
+                    type: textarea
+                    display: Biography
+                -
+                  handle: skills
+                  field:
+                    type: replicator
+                    display: Skills
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            fields:
+                              -
+                                handle: skill_name
+                                field:
+                                  type: text
+                                  display: 'Skill Name'
+                -
+                  handle: connect
+                  field:
+                    type: replicator
+                    display: Connect
+                    sets:
+                      new_set_group:
+                        display: 'New Set Group'
+                        sets:
+                          new_set:
+                            display: 'New Set'
+                            fields:
+                              -
+                                handle: connect_link
+                                field:
+                                  type: link
+                                  display: 'Connect Link'
+                              -
+                                handle: connect_icon
+                                field:
+                                  max_files: 1
+                                  container: assets
+                                  type: assets
+                                  display: 'Connect Icon'
+                -
+                  handle: projects_done
+                  field:
+                    type: text
+                    display: 'Projects Done'
+                -
+                  handle: years_of_experience
+                  field:
+                    type: text
+                    display: 'Years of Experience'
+                -
+                  handle: world_wide_clients
+                  field:
+                    type: text
+                    display: 'World Wide Clients'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
