@@ -5,7 +5,7 @@ title: Portfolio
 author: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
 template: portfolio
 updated_by: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
-updated_at: 1750673584
+updated_at: 1750682293
 section_1:
   name: Rafael
   your_picture:
@@ -48,16 +48,19 @@ section_1:
       connect_icon: facebook.png
       type: new_set
       enabled: true
+      connect_link: 'https://www.facebook.com/rafaelmartinmariano'
     -
       id: mc7pt6dh
+      connect_icon: linkedin.png
+      type: new_set
+      enabled: true
+      connect_link: 'https://www.linkedin.com/in/rafael-martin-mariano-a05746142'
+    -
+      id: mc7ptd78
       connect_icon: twitter.png
       type: new_set
       enabled: true
-    -
-      id: mc7ptd78
-      connect_icon: tiktok.png
-      type: new_set
-      enabled: true
+      connect_link: 'https://x.com/rafaelmartinMM'
   years_of_experience: '5+ Years'
   personal_projects: '2'
   tech_stacks: 14+
