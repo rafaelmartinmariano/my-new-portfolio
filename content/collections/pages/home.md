@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
 updated_by: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
-updated_at: 1750525861
+updated_at: 1750678967
 first_content:
   -
     id: mc63e9lx
@@ -60,6 +60,15 @@ skills_and_stacks:
     description: '**Statamic** – I’m currently diving deep into Statamic CMS to create fast, flexible, and future-proof websites that empower content creators and streamline development.'
     logos:
       - statamic-product-logo.jpeg
+    type: new_set
+    enabled: true
+  -
+    id: mc8zy51f
+    programming_language: 'Graphic Design'
+    description: 'Capable of creating and editing visual content using Adobe Photoshop and Adobe Premiere. Familiar with basic photo enhancement, layout design, and video editing techniques to produce clean and engaging media for digital platforms.'
+    logos:
+      - adobe_photoshop_cc_icon.svg.png
+      - adobe_premiere_pro_cc_icon.svg.png
     type: new_set
     enabled: true
 section_group_2:

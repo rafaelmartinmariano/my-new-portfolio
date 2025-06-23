@@ -76,20 +76,98 @@ tabs:
                                   type: assets
                                   display: 'Connect Icon'
                 -
-                  handle: projects_done
-                  field:
-                    type: text
-                    display: 'Projects Done'
-                -
                   handle: years_of_experience
                   field:
                     type: text
                     display: 'Years of Experience'
                 -
-                  handle: world_wide_clients
+                  handle: personal_projects
                   field:
                     type: text
-                    display: 'World Wide Clients'
+                    display: 'Personal Projects'
+                -
+                  handle: tech_stacks
+                  field:
+                    type: text
+                    display: 'Tech Stacks'
+          -
+            handle: services
+            field:
+              type: replicator
+              display: Services
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: your_service
+                          field:
+                            type: text
+                            display: 'Your Service'
+                            instructions: |-
+                              Example:
+                              Design, Software Development, Consultant, Marketing
+                        -
+                          handle: description
+                          field:
+                            type: textarea
+                            display: Description
+          -
+            handle: seminars
+            field:
+              type: replicator
+              display: Seminars
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  sets:
+                    new_set:
+                      display: 'New Set'
+                      fields:
+                        -
+                          handle: name
+                          field:
+                            type: text
+                            display: Name
+                        -
+                          handle: hosted_by
+                          field:
+                            type: text
+                            display: 'Hosted By'
+                        -
+                          handle: hosted_at
+                          field:
+                            type: text
+                            display: 'Hosted At'
+                        -
+                          handle: date
+                          field:
+                            type: date
+                            display: Date
+          -
+            handle: contact
+            field:
+              type: group
+              display: Contact
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: email
+                  field:
+                    type: markdown
+                    display: Email
+                -
+                  handle: call
+                  field:
+                    type: markdown
+                    display: Call
   sidebar:
     display: Sidebar
     sections:

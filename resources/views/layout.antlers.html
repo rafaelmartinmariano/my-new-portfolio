@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title ?? site:name }}</title>
     {{ vite src="resources/js/site.js|resources/css/site.css" }}
@@ -11,12 +12,16 @@
 
 <!--<body class="bg-gradient-to-bl from-[#ffe4e6]  to-[#ccfbf1]">-->
 
-<body class="bg-gradient-to-r from-[#0f172a]  to-[#334155]">
-    <div class="pl-10 pr-10 mt-3">
+<body class="bg-black cursor-default">
+    <div class="mb-15">
         {{ partial:main_nav }}
     </div>
 
     {{ template_content }}
+
+    <div>
+        {{ partial:footer }}
+    </div>
 </body>
 
 </html>

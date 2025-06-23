@@ -5,7 +5,7 @@ title: Portfolio
 author: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
 template: portfolio
 updated_by: 9f1989c1-575b-43a5-8dc6-fc4ab1086a56
-updated_at: 1750599924
+updated_at: 1750673584
 section_1:
   name: Rafael
   your_picture:
@@ -58,5 +58,50 @@ section_1:
       connect_icon: tiktok.png
       type: new_set
       enabled: true
+  years_of_experience: '5+ Years'
+  personal_projects: '2'
+  tech_stacks: 14+
+services:
+  -
+    id: mc8lcp2k
+    your_service: 'Web Design'
+    description: 'I build dynamic, fast, secure, and future-proof websites using PHP, Laravel, Statamic, and TailwindCSS. Whether it’s a custom CMS, business site, or modern web app, I focus on performance, clean code, and scalable architecture that grows with your needs.'
+    type: new_set
+    enabled: true
+  -
+    id: mc8lx6k3
+    your_service: 'Web Development'
+    description: 'I develop secure, scalable web applications using PHP, Laravel, Blade, HTML, CSS, JavaScript, TailwindCSS, and Bootstrap. From custom dashboards to SaaS platforms, I focus on building efficient systems that are both robust and user-friendly. With strong attention to performance, security, and code quality, I deliver modern web solutions tailored to solve real business problems and ready to grow with your needs.'
+    type: new_set
+    enabled: true
+logos:
+  - facebook.png
+  - tiktok.png
+  - twitter.png
+seminars:
+  -
+    id: mc8ofrl5
+    name: 'What’s New in ASP.NET'
+    hosted_by: 'Philippine Windows Developer Community Leaders'
+    hosted_at: 'Globe Valero Telepark, Globe Tower Building, Valero St., Makati City, NCR'
+    date: '2014-02-13'
+    type: new_set
+    enabled: true
+  -
+    id: mc8p6nii
+    name: 'Mobile Jam 2014'
+    hosted_by: 'Philippine Windows Developer Community Leaders'
+    hosted_at: 'Globe Valero Telepark, Globe Tower Building, Valero St., Makati City, NCR'
+    date: '2014-03-01'
+    type: new_set
+    enabled: true
+contact:
+  title: "Let's Talk"
+  email: |-
+    ### Email:
+    ## rafaelmartinmariano@gmail.com
+  call: |-
+    ### Call:
+    ## (+63) 935 723 7046
 ---
 Hi, I'm a web developer with a passion for building responsive and user-friendly websites. I enjoy turning ideas into digital experiences using modern technologies. Whether it's creating clean, functional designs or solving technical challenges, I’m always eager to learn and grow in the field of web development.
