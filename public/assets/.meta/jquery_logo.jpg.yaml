@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'JQuery Logo'
 size: 55571
-last_modified: 1750525030
+last_modified: 1750647334
 width: 1280
 height: 720
 mime_type: image/jpeg

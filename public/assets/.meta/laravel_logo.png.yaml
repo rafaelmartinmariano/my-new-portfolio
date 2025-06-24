@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Laravel Logo'
 size: 37110
-last_modified: 1750520402
+last_modified: 1750647334
 width: 3000
 height: 2000
 mime_type: image/png

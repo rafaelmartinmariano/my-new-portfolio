@@ -16,7 +16,7 @@ first_content:
       Driven by curiosity and constant learning, I explore new tools, frameworks, and technologies to stay ahead in the fast-paced tech world. From optimizing performance to crafting seamless user experiences, I aim to create work that is not only efficient but meaningful.
 
       When I’m not coding, I’m either exploring new tech, reading about innovations, or quietly building something new from scratch.
-    your_picture: dsc_0373.jpg
+    your_picture: profile_picture.jpg
     type: new_set
     enabled: true
     intro: "Hey there! I'm Rafael, and it's great to have you here."
@@ -33,7 +33,7 @@ skills_and_stacks:
     enabled: true
     logos:
       - pngimg.com---php_png34.png
-      - laravel-logo.wine.png
+      - laravel_logo.png
     title: 'Skills & Tech Stack'
     title_description: 'As a web developer, I specialize in building modern, efficient, and responsive websites using a solid foundation of both front-end and back-end technologies.'
   -
@@ -46,12 +46,12 @@ skills_and_stacks:
       Tailwind CSS – for utility-first, customizable design
       jQuery & AJAX – for dynamic, interactive web features
     logos:
-      - free-bootstrap-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-language-pack-logos-icons-1175203.webp
+      - bootstrap_logo.webp
       - html5_logo_and_wordmark.svg.png
-      - css3_logo_and_wordmark.svg.png
+      - css_logo.png
       - javascript-logo.png
       - tailwind_css_logo.svg.png
-      - 1_vwae0qwgv9noupl61bbmqw.jpg
+      - jquery_logo.jpg
     type: new_set
     enabled: true
   -
@@ -59,7 +59,7 @@ skills_and_stacks:
     programming_language: 'CMS Experience'
     description: '**Statamic** – I’m currently diving deep into Statamic CMS to create fast, flexible, and future-proof websites that empower content creators and streamline development.'
     logos:
-      - statamic-product-logo.jpeg
+      - statamic_logo.jpeg
     type: new_set
     enabled: true
   -
@@ -67,8 +67,8 @@ skills_and_stacks:
     programming_language: 'Graphic Design'
     description: 'Capable of creating and editing visual content using Adobe Photoshop and Adobe Premiere. Familiar with basic photo enhancement, layout design, and video editing techniques to produce clean and engaging media for digital platforms.'
     logos:
-      - adobe_photoshop_cc_icon.svg.png
-      - adobe_premiere_pro_cc_icon.svg.png
+      - adobe_photoshop_icon.svg.png
+      - adobe_premiere_pro_icon.svg.png
     type: new_set
     enabled: true
 section_group_2:

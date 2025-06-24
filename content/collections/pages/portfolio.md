@@ -9,7 +9,7 @@ updated_at: 1750682293
 section_1:
   name: Rafael
   your_picture:
-    - dsc_0373.jpg
+    - profile_picture.jpg
   biography: "I'm a Computer Science graduate from San Jose del Monte, Bulacan, Philippines. Married and blessed with one son, I live a simple life guided by my faith in Christ. With a passion for technology, I use my skills to build meaningful digital solutions and serve with purpose."
   skills:
     -

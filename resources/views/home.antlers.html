@@ -11,13 +11,17 @@
 
         <div class="p-10">
             <!-- For Name & About Me -->
-            <div class="bg-white rounded-xl shadow-2xl">
+            <section  v class="bg-white rounded-xl shadow-2xl" aria-label="About Rafael Martin Mariano">
                 <div class="text-gray-800 p-9">
-                    <span class="text-4xl">{{intro}}</span>
+                    <h1 class="text-4xl">
+                        {{intro}}
+                    </h1>
 
-                    <p class="text-gray-800 mt-4">{{about_me}}</p>
+                    <p class="text-gray-800 mt-4">
+                        {{about_me ?? "I'm a passionate web developer based in the Philippines, skilled in Laravel, Tailwind CSS, Statamic CMS, and more."}}
+                    </p>
                 </div>
-            </div>
+            </section >
         </div>
 
 
@@ -29,10 +33,10 @@
 <section>
     {{section_group_2}}
     <div class="place-items-center mt-10 p-10">
-        <h1
+        <h2
             class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
             {{ title }}
-        </h1>
+        </h2>
         <p class="mb-6 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
             {{description}}
         </p>
@@ -63,9 +67,9 @@
 
 
                     <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left {{if index+1 % 2 == 0 and index > 0 }}pl-20{{ /if }}">
-                        <h2 class="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+                        <h3 class="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
                             {{ programming_language }}
-                        </h2>
+                        </h3>
                         <div class="mt-6 text-lg/8 text-pretty text-gray-300">
                             {{ description }}
                         </div>

@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Tailwind CSS Logo'
 size: 83278
-last_modified: 1750524908
+last_modified: 1750647334
 width: 2560
 height: 1565
 mime_type: image/png

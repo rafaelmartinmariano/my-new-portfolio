@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Javascript Logo'
 size: 10268
-last_modified: 1750524795
+last_modified: 1750647334
 width: 1052
 height: 1052
 mime_type: image/png
